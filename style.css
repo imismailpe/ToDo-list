@@ -1,0 +1,25 @@
+body{
+	line-height: 15px;
+}
+.mainList{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 300px;
+}
+li{
+	background-color: rgb(305,299,177);
+	border: 2px solid orange;
+	border-radius: 4px;
+	margin: 15px;
+	padding: 5px;
+}
+.ToDoToDo{
+	text-decoration: none;
+}
+.ToDoDone{
+	text-decoration: line-through;
+	color: red;
+}
+.NoMinText{
+	border-color: red;
+}
